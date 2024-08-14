@@ -10,11 +10,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 // 배열형태의 라우팅페이지 설정변수
-// 어플리케이션의 사이즈에 따라 DB에서 값을 참조할 수도 있다.
+// 어플리케이션의 사이즈에 따라 대규모 프로젝트의 경우에는 DB에서 값을 참조하여 사용하는 방법도 있다.
 const links = [
-  { name: "test1", href: "/dashboard/test1", icon: HomeIcon },
-  { name: "test2", href: "/dashboard/test2", icon: UserGroupIcon },
-  { name: "test3", href: "/dashboard/test3", icon: UserGroupIcon },
+  { name: "Home", href: "/dashboard", icon: HomeIcon },
+  { name: "Invoices", href: "/dashboard/invoices", icon: UserGroupIcon },
+  { name: "test2", href: "/dashboard/test3", icon: UserGroupIcon },
 ];
 
 export default function NavLinks() {
