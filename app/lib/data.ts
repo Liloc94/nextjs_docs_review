@@ -12,14 +12,7 @@ import { unstable_noStore } from "next/cache";
 
 export async function fetchRevenue() {
   try {
-    // 테스트를 위해 의도적으로 응답을 지연시킴 !! 실제 프로젝트 때 사용 금지
-
-    // console.log("Fetching revenue data...");
-    // await new Promise((resolve) => setTimeout(resolve, 3000));
-
     const data = await sql<Revenue>`SELECT * FROM revenue`;
-
-    // console.log('Data fetch completed after 3 seconds.');
 
     return data.rows;
   } catch (error) {
