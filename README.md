@@ -1,5 +1,3 @@
-## Next.js App Router Course - Starter
+## next.js Docs 클론 코딩 및 배포 테스트
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
-
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## <https://nextjs-docs-review.vercel.app/>
